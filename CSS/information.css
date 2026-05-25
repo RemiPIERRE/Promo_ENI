@@ -1,0 +1,76 @@
+.general {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.8rem;
+}
+
+.general h1 {
+    text-transform: uppercase;
+}
+
+.info {
+    margin: 40px auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.info div {
+    border: 1px solid white;
+    border-radius: 7px;
+    background-color: rgba(15, 16, 23, 1);
+    min-width: 40vw;
+    min-height: 20vh;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    text-align: center;
+}
+
+.info div h2 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(50, 200, 230);
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.info div p {
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+}
+
+.info div ul {
+    list-style: none;
+    text-align: left;
+}
+
+.info div ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0, 150, 180, 0.2);
+}
+
+.info div ul li a:hover {
+    color: rgb(50, 200, 230);
+}
+
+.retour {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 10px 25px;
+    border: 1px solid rgba(0, 150, 180, 0.6);
+    border-radius: 7px;
+     background-color: rgba(0, 150, 180, 0.15);
+    color: white;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.retour:hover {
+    background-color: rgba(0, 150, 180, 0.4);
+}

@@ -1,0 +1,41 @@
+table {
+    width: 50%;
+    margin: 20px;
+}
+
+th, td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 150, 180, 0.3);
+}
+
+thead tr {
+    background-color: rgba(4, 129, 154, 0.1);
+    color: rgb(50, 200, 230);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+tbody tr:hover {
+    background-color: rgba(0, 150, 180, 0.08);
+}
+
+#typeAffichage {
+    text-align:right;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-size: 1.1rem;
+}
+
+.btnDetail {
+    background-color: rgba(0, 150, 180, 0.2);
+    color: white;
+    border: 1px solid rgba(0, 150, 180, 0.6);
+    border-radius: 5px;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+.btnDetail:hover {
+    background-color: rgba(0, 150, 180, 0.5);
+}
