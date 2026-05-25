@@ -6,6 +6,7 @@
             "prenom": "Guillaume",
             "ville": "Pau",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 43.2951,
                 "longitude": -0.3708
@@ -17,6 +18,7 @@
             "prenom": "Naime",
             "ville": "Ville",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 0,
                 "longitude": 0
@@ -28,6 +30,7 @@
             "prenom": "Charlotte",
             "ville": "Lyon",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 45.7676,
                 "longitude": 4.8344
@@ -39,6 +42,7 @@
             "prenom": "David",
             "ville": "Metz",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 49.1193,
                 "longitude": 6.1757
@@ -50,6 +54,7 @@
             "prenom": "Hanae",
             "ville": "Romans-sur-Isère",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 45.0500,
                 "longitude": 5.0500
@@ -61,6 +66,7 @@
             "prenom": "Kendal",
             "ville": "Ville",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 0,
                 "longitude": 0
@@ -72,6 +78,7 @@
             "prenom": "Saadia",
             "ville": "Ville",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 0,
                 "longitude": 0
@@ -83,6 +90,7 @@
             "prenom": "Rahmoun",
             "ville": "Ville",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 0,
                 "longitude": 0
@@ -94,6 +102,7 @@
             "prenom": "Romina",
             "ville": "Ville",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 0,
                 "longitude": 0
@@ -105,6 +114,7 @@
             "prenom": "Noah",
             "ville": "Laval",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 48.0698,
                 "longitude": -0.7681
@@ -116,6 +126,7 @@
             "prenom": "Karima",
             "ville": "Ville",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 0,
                 "longitude": 0
@@ -127,6 +138,7 @@
             "prenom": "Camille",
             "ville": "Nancy",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 48.6921,
                 "longitude": 6.1844
@@ -138,6 +150,7 @@
             "prenom": "Artiom",
             "ville": "Ville",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 0,
                 "longitude": 0
@@ -149,6 +162,7 @@
             "prenom": "Yousra",
             "ville": "Toulon",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 43.1258,
                 "longitude": 5.9306
@@ -160,6 +174,7 @@
             "prenom": "Julien",
             "ville": "Tourcoing",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 50.7239,
                 "longitude": 3.1612
@@ -171,6 +186,7 @@
             "prenom": "Valerie",
             "ville": "Ville",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 0,
                 "longitude": 0
@@ -182,6 +198,7 @@
             "prenom": "Mélanie",
             "ville": "Lyon",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 45.7676,
                 "longitude": 4.8344
@@ -193,6 +210,7 @@
             "prenom": "Melina",
             "ville": "Ville",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 0,
                 "longitude": 0
@@ -204,6 +222,7 @@
             "prenom": "Lionel",
             "ville": "Ville",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 0,
                 "longitude": 0
@@ -215,6 +234,7 @@
             "prenom": "Kentin",
             "ville": "Bourgoin-Jallieu",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 45.5847,
                 "longitude": 5.2711
@@ -226,6 +246,7 @@
             "prenom": "Rémi",
             "ville": "Rennes",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 48.1113,
                 "longitude": -1.6800
@@ -237,6 +258,7 @@
             "prenom": "Yoan",
             "ville": "Ville",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 0,
                 "longitude": 0
@@ -248,6 +270,7 @@
             "prenom": "Gatien",
             "ville": "Aurillac",
             "anecdotes": [],
+            "avatar": "avatar.jpg",
             "coordonnees": {
                 "latitude": 44.9300,
                 "longitude": 2.4400
