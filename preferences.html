@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promo ENI - Préférences</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/preferences.css">
+    <script src="JS/script.js"></script>
 </head>
+
 <body>
-    <h1>Préférences</h1>
+    <header>
+        <nav>
+            <img src="assets/images/logo-eni.png" alt="Logo ENI">
+            <h1>Promo EDWM2605FT</h1>
+            <div>
+                <a href="index.html">Accueil</a>
+                <a href="preferences.html">Préférences</a>
+                <a href="carte.html">Carte</a>
+                <a href="informations.html">Informations</a>
+            </div>
+        </nav>
+    </header>
+    <h1 class="title">Préférences du site</h1>
+    <section class="general">
+        <div>
+            <label for="theme">Thème du site</label>
+            <select name="theme" id="theme">
+                <option value="clair">Clair</option>
+                <option value="sombre">Sombre</option>
+            </select>
+        </div>
+        <div>
+            <p>Format d'affichage de la liste des apprenants</p>
+                <input type="radio" name="affichage" id="liste" value="liste" checked>
+                <label for="liste">Liste</label>
+                <input type="radio" name="affichage" id="cartes" value="cartes">
+                <label for="cartes">Cartes</label>
+        </div>
+    </section>
+    <section class="button">
+        <a href="index.html" class="retour">Retour à l'accueil</a>
+        <button class="enregistrer">Enregistrer</button>
+    </section>
 </body>
+
 </html>

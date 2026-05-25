@@ -32,3 +32,20 @@ nav {
 nav div {
     padding: 80px 0 0;
 }
+
+.retour {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 10px 25px;
+    border: 1px solid rgba(0, 150, 180, 0.6);
+    border-radius: 7px;
+    background-color: rgba(0, 150, 180, 0.15);
+    color: white;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.retour:hover {
+    background-color: rgba(0, 150, 180, 0.4);
+}
