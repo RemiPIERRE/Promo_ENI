@@ -11,14 +11,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/preferences.css">
+    <script src="https://kit.fontawesome.com/a46f84f941.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
     <header>
         <nav>
-            <img src="assets/images/logo-eni.png" alt="Logo ENI" width="45" height="45">
+            <img class="logo" src="assets/images/logo-eni.png" alt="Logo ENI" width="45" height="45">
             <h1></h1>
-            <div>
+            <button class="hamburger" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="nav-links">
                 <a href="index.html">Accueil</a>
                 <a href="preferences.html">Préférences</a>
                 <a href="carte.html">Carte</a>
@@ -27,39 +32,48 @@
         </nav>
     </header>
 
-    <h1 class="title">Préférences du site</h1>
+    <main>
+        <h1 class="title">Préférences du site</h1>
 
-    <section class="general">
-        <form>
-            <div>
-                <label for="theme">Thème du site</label>
-                <select name="theme" id="theme">
-                    <option value="clair">Clair</option>
-                    <option value="sombre">Sombre</option>
-                </select>
-            </div>
-            <div>
-                <p>Format d'affichage de la liste des apprenants</p>
-                <div class="radioGroup">
-                    <label>
-                        <input type="radio" name="affichage" id="liste" value="liste" checked>
-                        Liste (Tableau)
-                    </label>
-                    <label>
-                        <input type="radio" name="affichage" id="cartes" value="cartes">
-                        Cartes (Grille)
-                    </label>
+        <section class="general">
+            <form>
+                <div>
+                    <label for="theme">Thème du site</label>
+                    <select name="theme" id="theme">
+                        <option value="clair">Clair</option>
+                        <option value="sombre">Sombre</option>
+                    </select>
                 </div>
-            </div>
-        </form>
-    </section>
+                <div>
+                    <p>Format d'affichage de la liste des apprenants</p>
+                    <div class="radioGroup">
+                        <label>
+                            <input type="radio" name="affichage" id="liste" value="liste" checked>
+                            Liste (Tableau)
+                        </label>
+                        <label>
+                            <input type="radio" name="affichage" id="cartes" value="cartes">
+                            Cartes (Grille)
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </section>
 
-    <section class="button">
-        <a href="index.html" class="retour">Retour à l'accueil</a>
-        <button class="enregistrer">Enregistrer</button>
-    </section>
+        <section class="button">
+            <a href="index.html" class="retour">Retour à l'accueil</a>
+            <button class="enregistrer">Enregistrer</button>
+        </section>
+    </main>
+
+    <footer>
+        <span>Made by Rémi PIERRE</span>
+        <span>Projet Web - ENI</span>
+        <span>2026</span>
+    </footer>
 
     <script src="JS/preferences.js"></script>
+    <script src="JS/header.js"></script>
 </body>
 
 </html>

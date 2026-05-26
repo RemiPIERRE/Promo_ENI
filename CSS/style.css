@@ -2,7 +2,9 @@
 
 [data-theme="sombre"] {
     --bg-color: rgb(33, 37, 52);
+    --bg-footer: rgba(15, 16, 23, 0.6);
     --bg-header: rgba(15, 16, 23, 0.5);
+    --bg-hamburger: rgb(40, 62, 93);
     --shadow-color: rgb(200, 245, 240);
     --text-color: white;
     --text-secondary: rgba(255, 255, 255, 0.6);
@@ -16,8 +18,10 @@
 }
 
 [data-theme="clair"] {
-    --bg-color: rgb(241, 245, 252);
+    --bg-color: rgb(241, 246, 252);
+    --bg-footer: rgb(200, 225, 240);
     --bg-header: rgb(218, 228, 240);
+    --bg-hamburger: rgb(158, 211, 255);
     --shadow-color: rgb(9, 50, 46);
     --text-color: rgb(20, 30, 50);
     --text-secondary: rgb(80, 100, 130);
@@ -45,9 +49,17 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 header {
+    position: relative;
     text-align: center;
     padding: 10px 0px 0px;
     background-color: var(--bg-header);
@@ -91,6 +103,14 @@ nav div a:hover {
     color: var(--accent-color);
 }
 
+footer {
+    padding: 30px 40px;
+    background-color: var(--bg-footer);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
 .retour {
     display: block;
     width: fit-content;
@@ -106,4 +126,108 @@ nav div a:hover {
 
 .retour:hover {
     background-color: var(--btn-hover);
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--accent-color);
+    font-size: 1.5rem;
+}
+
+.nav-links.open {
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background-color: var(--bg-hamburger);
+    padding: 15px 20px;
+    gap: 10px;
+    z-index: 1100;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 575px) {
+    nav h1 {
+        font-size: 1.6rem;
+    }
+
+    nav img {
+        height: 35px;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    nav h1 {
+        font-size: 2rem;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    nav h1 {
+        font-size: 2.2rem;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    nav h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    body {
+        font-size: 1.05rem;
+    }
+
+    nav h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    body {
+        font-size: 1.1rem;
+    }
+
+    nav h1 {
+        font-size: 3.5rem;
+    }
+
+    nav div a {
+        font-size: 1.1rem;
+    }
+
+    .retour {
+        font-size: 1.1rem;
+        padding: 12px 30px;
+    }
 }

@@ -114,3 +114,9 @@
 .enregistrer:hover {
     background-color: var(--btn-hover);
 }
+
+@media screen and (max-width: 575px) {
+    .logo {
+        display: none;
+    }
+}

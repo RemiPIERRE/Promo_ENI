@@ -11,14 +11,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/index.css">
+    <script src="https://kit.fontawesome.com/a46f84f941.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <nav>
-            <img src="assets/images/logo-eni.png" alt="Logo ENI" width="45" height="45">
+            <img class="logo" src="assets/images/logo-eni.png" alt="Logo ENI" width="45" height="45">
             <h1></h1>
-            <div>
+            <button class="hamburger" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="nav-links">
                 <a href="index.html">Accueil</a>
                 <a href="preferences.html">Préférences</a>
                 <a href="carte.html">Carte</a>
@@ -61,8 +65,13 @@
     </main>
 
     <footer>
+        <span>Made by Rémi PIERRE</span>
+        <span>Projet Web - ENI</span>
+        <span>2026</span>
     </footer>
+    
     <script src="JS/index.js"></script>
+    <script src="JS/header.js"></script>
 </body>
 
 </html>

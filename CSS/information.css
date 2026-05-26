@@ -13,7 +13,8 @@
     margin-bottom: 10px;
 }
 
-.general h4, .general h5 {
+.general h4,
+.general h5 {
     color: var(--text-secondary);
     font-weight: normal;
     margin-top: 5px;
@@ -76,4 +77,110 @@
 
 .info div ul li a:hover {
     color: var(--accent-color);
+}
+
+@media screen and (max-width: 370px) {
+    .logo {
+        display: none;
+    }
+
+    .general h1 {
+        font-size: 1.5rem;
+    }
+
+    .general {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+
+    .info {
+        flex-direction: column;
+        padding: 17px;
+        margin: 5px;
+        overflow-x: auto;
+    }
+
+    .info div {
+        min-width: unset;
+        width: 87%;
+        padding: 17px;
+    }
+}
+
+@media screen and (min-width: 370px) and (max-width: 575px) {
+    .logo {
+        display: none;
+    }
+
+    .general h1 {
+        font-size: 1.5rem;
+    }
+
+    .general {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+
+    .info {
+        flex-direction: column;
+        padding: 20px;
+        margin: 5px;
+        overflow-x: auto;
+    }
+
+    .info div {
+        min-width: unset;
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .logo {
+        display: none;
+    }
+
+    .general h1 {
+        font-size: 2rem;
+    }
+
+    .info {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .info div {
+        min-width: unset;
+        width: 89%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .info {
+        flex-direction: column;
+        padding: 0 30px;
+    }
+
+    .info div {
+        min-width: unset;
+        width: 92%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .general h1 {
+        font-size: 3.5rem;
+    }
+
+    .general {
+        font-size: 1.4rem;
+    }
+
+    .info div {
+        padding: 40px;
+    }
+
+    .info div p {
+        font-size: 1.05rem;
+    }
 }
