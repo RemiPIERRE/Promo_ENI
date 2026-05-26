@@ -69,6 +69,7 @@ function createCards(data) {
 
 document.querySelectorAll('input[name="affichage"]').forEach(radio => {
     radio.addEventListener("change", function () {
+        affichage = this.value
         if (this.value === 'liste') {
             document.getElementById("apprenants_card").style.display = "none";
             document.getElementById("apprenants_list").style.display = "block";
