@@ -43,7 +43,7 @@ function createList(data) {
                 <td>${apprenant.nom}</td>
                 <td>${apprenant.prenom}</td>
                 <td>${apprenant.ville}</td>
-                <td><button class="btnDetail">Détail</button></td>
+                <td><button class="btnDetail" data-id="${apprenant.id}">Détail</button></td>
             </tr>`;
     });
 
@@ -59,7 +59,7 @@ function createCards(data) {
             <div>
                 <p class="cardNom">${apprenant.nom} ${apprenant.prenom}</p>
                 <p>${apprenant.ville}</p>
-                <button class="btnDetail">Détail</button>
+                <button class="btnDetail" data-id="${apprenant.id}">Détail</button>
             </div>`;
     });
 
@@ -78,4 +78,53 @@ document.querySelectorAll('input[name="affichage"]').forEach(radio => {
             createCards(dataJson);
         }
     });
+});
+
+document.getElementById('modalClose').addEventListener('click', function (e) {
+    e.stopPropagation();
+    document.getElementById('modalDetail').close();
+});
+
+document.addEventListener('click', function (e) {
+    if (e.target.classList.contains('btnDetail')) {
+        let x = e.clientX;
+        let y = e.clientY;
+
+        let modal = document.getElementById('modalDetail');
+        let id = e.target.dataset.id;
+        let apprenant = dataJson.apprenants[id - 1];
+
+        document.getElementById('modalAvatar').src = apprenant.avatar
+            ? "assets/images/" + apprenant.avatar
+            : "assets/images/avatar.png";
+        document.getElementById('modalNom').innerText = apprenant.nom;
+        document.getElementById('modalPrenom').innerText = apprenant.prenom;
+        document.getElementById('modalVille').innerText = apprenant.ville;
+        document.getElementById('modalAnecdotes').innerHTML = "";
+        for (let i = 0; i < apprenant.anecdotes.length; i++) {
+            document.getElementById('modalAnecdotes').innerHTML += `<p>${apprenant.anecdotes[i]}</p>`;
+        }
+
+        modal.showModal();
+
+        if (affichage === 'liste') {
+            let table = document.querySelector('table');
+            let tableRect = table.getBoundingClientRect();
+            modal.style.transform = 'translateY(-50%)';
+            modal.style.left = tableRect.right + 20 + 'px';
+            modal.style.top = '50%';
+        } else {
+            modal.style.transform = 'none';
+            if (x + modal.offsetWidth > window.innerWidth) {
+                modal.style.left = window.innerWidth - modal.offsetWidth - 10 + 'px';
+            } else {
+                modal.style.left = x + 'px';
+            }
+            if (y + modal.offsetHeight > window.innerHeight) {
+                modal.style.top = Math.max(0, window.innerHeight - modal.offsetHeight - 10) + 'px';
+            } else {
+                modal.style.top = y + 'px';
+            }
+        }
+    }
 });
