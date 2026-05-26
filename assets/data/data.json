@@ -244,12 +244,12 @@
             "id": 21,
             "nom": "PIERRE",
             "prenom": "Rémi",
-            "ville": "Rennes",
+            "ville": "Malansac",
             "anecdotes": [],
             "avatar": "avatar.jpg",
             "coordonnees": {
-                "latitude": 48.1113,
-                "longitude": -1.6800
+                "latitude": 47.6771965,
+                "longitude": -2.297903
             }
         },
         {

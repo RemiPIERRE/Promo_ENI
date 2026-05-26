@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promo ENI - Carte</title>
-    <meta name="description" content="Site de la promo EDWM2605FT de l'école ENI - Formation Développeur Web et Web Mobile - Page de la carte virtuel">
+    <meta name="description"
+        content="Site de la promo EDWM2605FT de l'école ENI - Formation Développeur Web et Web Mobile - Page de la carte virtuel">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/carte.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 </head>
+
 <body>
-    <h1>Carte</h1>
+    <header>
+        <nav>
+            <img src="assets/images/logo-eni.png" alt="Logo ENI" width="45" height="45">
+            <h1>Promo EDWM2605FT</h1>
+            <div>
+                <a href="index.html">Accueil</a>
+                <a href="preferences.html">Préférences</a>
+                <a href="carte.html">Carte</a>
+                <a href="informations.html">Informations</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2>Carte</h2>
+        <div id="map"></div>
+        <a href="index.html" class="retour">Retour à l'accueil</a>
+    </main>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="JS/carte.js"></script>
 </body>
+
 </html>
