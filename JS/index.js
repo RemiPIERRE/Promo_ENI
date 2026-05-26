@@ -17,6 +17,7 @@ fetch('assets/data/data.json')
     .then(data => createTab(data));
 
 function createTab(data) {
+    document.querySelector('nav h1').innerText = `Promo ${data.formation.name}`;
     dataJson = data;
     if (affichage === 'liste') {
         createList(data);

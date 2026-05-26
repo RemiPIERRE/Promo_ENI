@@ -14,6 +14,7 @@ console.log(document.getElementById('map').offsetHeight);
 fetch('assets/data/data.json')
     .then(response => response.json())
     .then(data => {
+        document.querySelector('nav h1').innerText = `Promo ${data.formation.name}`
         data.apprenants.forEach(apprenant => {
             if (apprenant.coordonnees.latitude !== 0) {
                 L.marker([apprenant.coordonnees.latitude, apprenant.coordonnees.longitude])

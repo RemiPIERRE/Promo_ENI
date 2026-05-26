@@ -1,6 +1,10 @@
 let theme = localStorage.getItem('theme') || 'clair';
 document.body.setAttribute('data-theme', theme);
 
+fetch('assets/data/data.json')
+    .then(response => response.json())
+    .then(data => document.querySelector('nav h1').innerText = `Promo ${data.formation.name}`);
+
 window.addEventListener("load", function () {
     let theme = localStorage.getItem('theme') || 'clair';
     let affichage = localStorage.getItem('affichage') || 'liste';

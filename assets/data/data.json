@@ -1,11 +1,25 @@
 {
+    "formation": {
+        "name": "EDWM2605FT",
+        "debut": "04/05/2026",
+        "fin": "23/10/2026",
+        "description": [
+            "La formation Développeur Web et Web Mobile (DWWM) est proposée par l'école ENI dans le cadre d'un cursus en ligne, financé par France Travail.",
+            "Au programme : les fondamentaux du web avec HTML, CSS et JavaScript, les frameworks Bootstrap et Angular, le développement back-end avec Symfony, ainsi que la gestion de bases de données avec MySQL.",
+            "La formation s'organise en rushs d'une à deux semaines, rythmés par des projets bilans permettant de mettre en pratique les connaissances acquises dans chaque langage. Elle se conclut par un stage en entreprise de deux mois, suivi d'une soutenance orale devant un jury comme examen final."
+        ],
+        "apprenants": 23
+    },
     "apprenants": [
         {
             "id": 1,
             "nom": "ALFONSO",
             "prenom": "Guillaume",
             "ville": "Pau",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 43.2951,
@@ -17,7 +31,10 @@
             "nom": "BEOUCHE",
             "prenom": "Naima",
             "ville": "Ville",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 0,
@@ -29,7 +46,10 @@
             "nom": "BOUAZZA",
             "prenom": "Charlotte",
             "ville": "Lyon",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 45.7676,
@@ -41,7 +61,10 @@
             "nom": "CELESTINI",
             "prenom": "David",
             "ville": "Metz",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 49.1193,
@@ -53,7 +76,10 @@
             "nom": "CHABAB",
             "prenom": "Hanae",
             "ville": "Romans-sur-Isère",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 45.0500,
@@ -65,7 +91,10 @@
             "nom": "CHABOT",
             "prenom": "Kendal",
             "ville": "Ville",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 0,
@@ -77,7 +106,10 @@
             "nom": "CHADLI",
             "prenom": "Saadia",
             "ville": "Ville",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 0,
@@ -89,7 +121,10 @@
             "nom": "CHICK-MILOUD",
             "prenom": "Rahmoun",
             "ville": "Ville",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 0,
@@ -101,7 +136,10 @@
             "nom": "DEVOS ARGUELLO",
             "prenom": "Romina",
             "ville": "Ville",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 0,
@@ -113,7 +151,10 @@
             "nom": "DURAND",
             "prenom": "Noah",
             "ville": "Laval",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 48.0698,
@@ -125,7 +166,10 @@
             "nom": "EL KILANI",
             "prenom": "Karima",
             "ville": "Ville",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 0,
@@ -137,7 +181,10 @@
             "nom": "FASOLIN",
             "prenom": "Camille",
             "ville": "Nancy",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 48.6921,
@@ -149,7 +196,10 @@
             "nom": "GHELAN",
             "prenom": "Artiom",
             "ville": "Ville",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 0,
@@ -161,7 +211,10 @@
             "nom": "LABIDI",
             "prenom": "Yousra",
             "ville": "Toulon",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 43.1258,
@@ -173,7 +226,10 @@
             "nom": "LAFLUTTE",
             "prenom": "Julien",
             "ville": "Tourcoing",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 50.7239,
@@ -185,7 +241,10 @@
             "nom": "LAFOUASSE",
             "prenom": "Valerie",
             "ville": "Ville",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 0,
@@ -197,7 +256,10 @@
             "nom": "MEGUIRA",
             "prenom": "Mélanie",
             "ville": "Lyon",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 45.7676,
@@ -209,7 +271,10 @@
             "nom": "MEZABER",
             "prenom": "Melina",
             "ville": "Ville",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 0,
@@ -221,7 +286,10 @@
             "nom": "MILLAUD",
             "prenom": "Lionel",
             "ville": "Ville",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 0,
@@ -233,7 +301,10 @@
             "nom": "PARENT-BERT",
             "prenom": "Kentin",
             "ville": "Bourgoin-Jallieu",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 45.5847,
@@ -245,7 +316,10 @@
             "nom": "PIERRE",
             "prenom": "Rémi",
             "ville": "Malansac",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 47.6771965,
@@ -257,7 +331,10 @@
             "nom": "RIMIZE",
             "prenom": "Yoan",
             "ville": "Ville",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 0,
@@ -269,7 +346,10 @@
             "nom": "SICOT",
             "prenom": "Gatien",
             "ville": "Aurillac",
-            "anecdotes": ["Lorem ipsum, dolor sit amet consectetur adipisicing elit", "Labore impedit error itaque vitae mollitia eum necessitatibus"],
+            "anecdotes": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+            ],
             "avatar": "avatar.png",
             "coordonnees": {
                 "latitude": 44.9300,
