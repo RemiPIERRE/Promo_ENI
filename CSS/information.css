@@ -1,11 +1,22 @@
 .general {
     text-align: center;
     margin-top: 30px;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
+    color: var(--text-color);
 }
 
 .general h1 {
+    font-family: 'Oregano', cursive;
     text-transform: uppercase;
+    color: var(--accent-color);
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.general h4, .general h5 {
+    color: var(--text-secondary);
+    font-weight: normal;
+    margin-top: 5px;
 }
 
 .info {
@@ -13,34 +24,33 @@
     max-width: 1200px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
+    padding: 0 20px;
 }
 
 .info div {
-    border: 1px solid white;
+    border: 1px solid var(--border-color);
     border-radius: 7px;
-    background-color: rgba(15, 16, 23, 1);
+    background-color: var(--card-bg);
     min-width: 40vw;
     min-height: 20vh;
-    flex-direction: column;
-    justify-content: space-around;
     padding: 30px;
-    text-align: center;
+    transition: background-color 0.3s, border-color 0.3s;
 }
 
 .info div h2 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: rgb(50, 200, 230);
+    color: var(--accent-color);
     margin-bottom: 15px;
     text-align: left;
 }
 
 .info div p {
     line-height: 1.8;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--text-secondary);
     text-align: left;
 }
 
@@ -51,9 +61,19 @@
 
 .info div ul li {
     padding: 8px 0;
-    border-bottom: 1px solid rgba(0, 150, 180, 0.2);
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-color);
+}
+
+.info div ul li:last-child {
+    border-bottom: none;
+}
+
+.info div ul li a {
+    color: var(--text-color);
+    transition: color 0.2s;
 }
 
 .info div ul li a:hover {
-    color: rgb(50, 200, 230);
+    color: var(--accent-color);
 }

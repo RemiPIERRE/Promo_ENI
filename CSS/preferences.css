@@ -1,23 +1,92 @@
 .title {
-    font-size: 5rem;
+    font-family: 'Oregano', cursive;
+    font-size: 3rem;
     text-align: center;
-    margin: 30px;
+    margin: 40px 0 10px;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .general {
     display: flex;
     flex-direction: column;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
-    margin: 50px;
+    margin: 40px auto;
+    max-width: 600px;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 30px;
+    gap: 0;
 }
 
 .general div {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.general div:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.general label {
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.general p {
+    color: var(--text-color);
+    font-size: 1rem;
+    text-align: left;
+}
+
+.general select {
+    background-color: var(--btn-bg);
+    color: var(--text-color);
+    border: 1px solid var(--btn-border);
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.general select {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 1px solid var(--btn-border);
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.general select option {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.radioGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.radioGroup label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    color: var(--text-color);
 }
 
 .button {
@@ -33,14 +102,15 @@
     width: fit-content;
     margin: 30px auto;
     padding: 10px 25px;
-    border: 1px solid rgba(0, 150, 180, 0.6);
+    border: 1px solid var(--btn-border);
     border-radius: 7px;
-    background-color: rgba(0, 150, 180, 0.15);
-    color: white;
+    background-color: var(--btn-bg);
+    color: var(--text-color);
     font-size: 1rem;
+    cursor: pointer;
     transition: background-color 0.2s;
 }
 
 .enregistrer:hover {
-    background-color: rgba(0, 150, 180, 0.4);
+    background-color: var(--btn-hover);
 }

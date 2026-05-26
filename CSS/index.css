@@ -1,24 +1,31 @@
 table {
     width: 50%;
-    margin: 20px;
+    margin: 50px;
+    border-collapse: collapse;
 }
 
-th,
-td {
+th, td {
     padding: 12px 20px;
     text-align: left;
-    border-bottom: 1px solid rgba(0, 150, 180, 0.3);
+    border-bottom: 1px solid var(--border-color);
 }
 
 thead tr {
-    background-color: rgba(4, 129, 154, 0.1);
-    color: rgb(50, 200, 230);
+    background-color: var(--card-bg);
+    color: var(--accent-color);
     letter-spacing: 2px;
     text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+tbody tr {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    transition: background-color 0.15s;
 }
 
 tbody tr:hover {
-    background-color: rgba(0, 150, 180, 0.08);
+    background-color: var(--row-hover);
 }
 
 #typeAffichage {
@@ -26,6 +33,27 @@ tbody tr:hover {
     margin-top: 15px;
     margin-right: 15px;
     font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+#typeAffichage label {
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.btnDetail {
+    background-color: var(--btn-bg);
+    color: var(--text-color);
+    border: 1px solid var(--btn-border);
+    border-radius: 5px;
+    padding: 5px 12px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 0.85rem;
+}
+
+.btnDetail:hover {
+    background-color: var(--btn-hover);
 }
 
 #apprenants_card {
@@ -35,38 +63,36 @@ tbody tr:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    gap: 35px;
+    gap: 20px;
 }
 
 #apprenants_card div {
-    border: 1px solid white;
+    border: 2px solid var(--border-color);
     border-radius: 7px;
-    background-color: rgba(15, 16, 23, 1);
+    background-color: var(--card-bg);
     display: flex;
     width: 15vw;
-    height: 20vh;
+    min-height: 15vh;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 10px 16px;
+    padding: 15px;
     text-align: center;
+    transition: border-color 0.2s, background-color 0.2s;
 }
 
 #apprenants_card div:hover {
-    border-color: rgba(15, 150, 180, 0.8);
-    background-color: rgba(0, 50, 60, 0.08);
+    border-color: var(--accent-color);
+    background-color: var(--row-hover);
 }
 
-.btnDetail {
-    background-color: rgba(0, 150, 180, 0.2);
-    color: white;
-    border: 1px solid rgba(0, 150, 180, 0.6);
-    border-radius: 5px;
-    padding: 5px 12px;
-    cursor: pointer;
+#apprenants_card .cardNom {
+    font-weight: 500;
+    color: var(--accent-color);
+    font-size: 0.95rem;
 }
 
-.btnDetail:hover {
-    background-color: rgba(0, 150, 180, 0.5);
+#apprenants_card div p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
 }
