@@ -11,6 +11,5 @@ window.addEventListener("load", function() {
         
         localStorage.setItem('theme', theme);
         localStorage.setItem('affichage', affichage);
-        alert("Préférences enregistrées !")
     });
 });

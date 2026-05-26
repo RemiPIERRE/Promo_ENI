@@ -3,7 +3,8 @@ table {
     margin: 20px;
 }
 
-th, td {
+th,
+td {
     padding: 12px 20px;
     text-align: left;
     border-bottom: 1px solid rgba(0, 150, 180, 0.3);
@@ -21,10 +22,40 @@ tbody tr:hover {
 }
 
 #typeAffichage {
-    text-align:right;
+    text-align: right;
     margin-top: 15px;
     margin-right: 15px;
     font-size: 1.1rem;
+}
+
+#apprenants_card {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+}
+
+#apprenants_card div {
+    border: 1px solid white;
+    border-radius: 7px;
+    background-color: rgba(15, 16, 23, 1);
+    display: flex;
+    width: 15vw;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 16px;
+    text-align: center;
+}
+
+#apprenants_card div:hover {
+    border-color: rgba(15, 150, 180, 0.8);
+    background-color: rgba(0, 50, 60, 0.08);
 }
 
 .btnDetail {
