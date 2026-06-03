@@ -96,7 +96,12 @@ document.addEventListener('click', function (e) {
         let id = e.target.dataset.id;
         let apprenant = dataJson.apprenants[id - 1];
 
-        document.getElementById('modalAvatar').src = apprenant.avatar
+        const img = document.getElementById('modalAvatar');
+        img.onerror = function () {
+            this.onerror = null;
+            this.src = "assets/images/avatar.png";
+        };
+        img.src = apprenant.avatar
             ? "assets/images/" + apprenant.avatar
             : "assets/images/avatar.png";
         document.getElementById('modalNom').innerText = apprenant.nom;

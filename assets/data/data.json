@@ -15,30 +15,29 @@
             "id": 1,
             "nom": "ALFONSO",
             "prenom": "Guillaume",
-            "ville": "Pau",
+            "ville": "Soumoulou",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "Allergique au KAHOOT", 
+                "Ancien cracheur de feu"
             ],
-            "avatar": "avatar.png",
+            "avatar": "ALFONSO_Guillaume.webp",
             "coordonnees": {
-                "latitude": 43.2951,
-                "longitude": -0.3708
+                "latitude": 43.2656541,
+                "longitude": -0.1884997
             }
         },
         {
             "id": 2,
             "nom": "BEOUCHE",
-            "prenom": "Naima",
-            "ville": "Ville",
+            "prenom": "Naïma",
+            "ville": "Metz",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "Aventurière dans l'âme, je voyage comme Lara Croft… mais version vacances et sans danger."
             ],
-            "avatar": "avatar.png",
+            "avatar": "BEOUCHE_Naima.webp",
             "coordonnees": {
-                "latitude": 0,
-                "longitude": 0
+                "latitude": 49.119696,
+                "longitude": 6.176355
             }
         },
         {
@@ -47,28 +46,26 @@
             "prenom": "Charlotte",
             "ville": "Lyon",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "Fan ultime de Buffy contre les vampires"
             ],
-            "avatar": "avatar.png",
+            "avatar": "BOUAZZA_Charlotte.webp",
             "coordonnees": {
-                "latitude": 45.7676,
-                "longitude": 4.8344
+                "latitude": 45.7578137,
+                "longitude": 4.8320114
             }
         },
         {
             "id": 4,
             "nom": "CELESTINI",
             "prenom": "David",
-            "ville": "Metz",
+            "ville": "Solgne",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "Se fait appeller Sinpou"
             ],
-            "avatar": "avatar.png",
+            "avatar": "CELESTINI_David.webp",
             "coordonnees": {
-                "latitude": 49.1193,
-                "longitude": 6.1757
+                "latitude": 48.9653511,
+                "longitude": 6.2953959
             }
         },
         {
@@ -77,58 +74,54 @@
             "prenom": "Hanae",
             "ville": "Romans-sur-Isère",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "Photo générée par IA"
             ],
-            "avatar": "avatar.png",
+            "avatar": "CHABAB_Hanae.webp",
             "coordonnees": {
-                "latitude": 45.0500,
-                "longitude": 5.0500
+                "latitude": 45.0458886,
+                "longitude": 5.0528681
             }
         },
         {
             "id": 6,
             "nom": "CHABOT",
             "prenom": "Kendal",
-            "ville": "Ville",
+            "ville": "Challans",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "Est devenu oncle à 10 ans"
             ],
-            "avatar": "avatar.png",
+            "avatar": "CHABOT_Kendal.webp",
             "coordonnees": {
-                "latitude": 0,
-                "longitude": 0
+                "latitude": 46.847809,
+                "longitude": -1.877431
             }
         },
         {
             "id": 7,
             "nom": "CHADLI",
             "prenom": "Saadia",
-            "ville": "Ville",
+            "ville": "Marseille",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "victime de relooking par ses nièces"
             ],
-            "avatar": "avatar.png",
+            "avatar": "CHADLI_Saadia.webp",
             "coordonnees": {
-                "latitude": 0,
-                "longitude": 0
+                "latitude": 43.296399,
+                "longitude": 5.377789
             }
         },
         {
             "id": 8,
             "nom": "CHICK-MILOUD",
             "prenom": "Rahmoun",
-            "ville": "Ville",
+            "ville": "Bourges",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "Se prend pour Maitre Gims"
             ],
-            "avatar": "avatar.png",
+            "avatar": "CHICK-MILOUD_Rahmoun.webp",
             "coordonnees": {
-                "latitude": 0,
-                "longitude": 0
+                "latitude": 47.081166,
+                "longitude": 2.399125
             }
         },
         {
@@ -140,7 +133,7 @@
                 "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
                 "Labore impedit error itaque vitae mollitia eum necessitatibus"
             ],
-            "avatar": "avatar.png",
+            "avatar": "DEVOS-ARGUELLO_Romina.webp",
             "coordonnees": {
                 "latitude": 0,
                 "longitude": 0
@@ -152,58 +145,54 @@
             "prenom": "Noah",
             "ville": "Laval",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "Fan inconditionnel de Sade"
             ],
-            "avatar": "avatar.png",
+            "avatar": "DURAND_Noah.webp",
             "coordonnees": {
-                "latitude": 48.0698,
-                "longitude": -0.7681
+                "latitude": 48.0706687,
+                "longitude": -0.7734022
             }
         },
         {
             "id": 11,
             "nom": "EL KILANI",
             "prenom": "Karima",
-            "ville": "Ville",
+            "ville": "Paris",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "Parisienne qui respecte le code de la route"
             ],
-            "avatar": "avatar.png",
+            "avatar": "EL-KILANI_Karima.webp",
             "coordonnees": {
-                "latitude": 0,
-                "longitude": 0
+                "latitude": 48.8534951,
+                "longitude": 2.3483915
             }
         },
         {
             "id": 12,
             "nom": "FASOLIN",
             "prenom": "Camille",
-            "ville": "Nancy",
+            "ville": "Arvert",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "A voulu des lunettes dès le CE1 après avoir lu dans Tom-Tom et Nana que ça rendait plus intelligent"
             ],
-            "avatar": "avatar.png",
+            "avatar": "FASOLIN_Camille.webp",
             "coordonnees": {
-                "latitude": 48.6921,
-                "longitude": 6.1844
+                "latitude": 45.7409118,
+                "longitude": -1.1266705
             }
         },
         {
             "id": 13,
             "nom": "GHELAN",
             "prenom": "Artiom",
-            "ville": "Ville",
+            "ville": "Clichy-sous-Bois",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "Je réfléchis tellement avant de choisir un film qu'il est déjà l'heure de dormir."
             ],
-            "avatar": "avatar.png",
+            "avatar": "GHELAN_Artiom.webp",
             "coordonnees": {
-                "latitude": 0,
-                "longitude": 0
+                "latitude": 48.910939,
+                "longitude": 2.546072
             }
         },
         {
@@ -212,13 +201,12 @@
             "prenom": "Yousra",
             "ville": "Toulon",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "Rejoint les réunions Teams une heure après"
             ],
-            "avatar": "avatar.png",
+            "avatar": "LABIDI_Yousra.webp",
             "coordonnees": {
-                "latitude": 43.1258,
-                "longitude": 5.9306
+                "latitude": 43.1257311,
+                "longitude": 5.9304919
             }
         },
         {
@@ -227,73 +215,68 @@
             "prenom": "Julien",
             "ville": "Tourcoing",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "A essayé le Vademecum fluor et plante une fois, a vomi"
             ],
-            "avatar": "avatar.png",
+            "avatar": "LAFLUTTE_Julien.webp",
             "coordonnees": {
-                "latitude": 50.7239,
-                "longitude": 3.1612
+                "latitude": 50.7235038,
+                "longitude": 3.1605714
             }
         },
         {
             "id": 16,
             "nom": "LAFOUASSE",
             "prenom": "Valerie",
-            "ville": "Ville",
+            "ville": "Surgères ",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                " J'adore cuisiner et j'ai un petit faible pour le chocolat, à tel point que chaque année je fais un atelier chocolat avec des amis, et on prépare des kilos de rochers pralinés et autres bouchées !"
             ],
-            "avatar": "avatar.png",
+            "avatar": "LAFOUASSE_Valerie.webp",
             "coordonnees": {
-                "latitude": 0,
-                "longitude": 0
+                "latitude": 46.105272,
+                "longitude": -0.751115
             }
         },
         {
             "id": 17,
             "nom": "MEGUIRA",
             "prenom": "Mélanie",
-            "ville": "Lyon",
+            "ville": "Vaulx-en-Velin",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "A failli devenir aveugle à 6 ans après un lancé de fourchette"
             ],
-            "avatar": "avatar.png",
+            "avatar": "MEGUIRA_Melanie.webp",
             "coordonnees": {
-                "latitude": 45.7676,
-                "longitude": 4.8344
+                "latitude": 45.7784255,
+                "longitude": 4.9206153
             }
         },
         {
             "id": 18,
             "nom": "MEZABER",
             "prenom": "Melina",
-            "ville": "Ville",
+            "ville": "Limoux",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "Tout le temps en retard mais je me soigne !"
             ],
-            "avatar": "avatar.png",
+            "avatar": "MEZABER_Melina.webp",
             "coordonnees": {
-                "latitude": 0,
-                "longitude": 0
+                "latitude": 43.053807,
+                "longitude": 2.217653
             }
         },
         {
             "id": 19,
             "nom": "MILLAUD",
             "prenom": "Lionel",
-            "ville": "Ville",
+            "ville": "Bordeaux",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "DJ à ses heures perdues"
             ],
-            "avatar": "avatar.png",
+            "avatar": "MILLAUD_Lionel.webp",
             "coordonnees": {
-                "latitude": 0,
-                "longitude": 0
+                "latitude": 44.841225,
+                "longitude": -0.580036
             }
         },
         {
@@ -302,13 +285,13 @@
             "prenom": "Kentin",
             "ville": "Bourgoin-Jallieu",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "Se plaint de ne plus avoir d'argent : achète un collector quand il sort",
+                "« Ça devrait prendre cinq minutes. » *Trois heures plus tard* « Bon, au moins j'ai appris quelque chose. »"
             ],
-            "avatar": "avatar.png",
+            "avatar": "PARENT-BERT_Kentin.webp",
             "coordonnees": {
-                "latitude": 45.5847,
-                "longitude": 5.2711
+                "latitude": 45.5860438,
+                "longitude": 5.2772265
             }
         },
         {
@@ -317,28 +300,28 @@
             "prenom": "Rémi",
             "ville": "Malansac",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "Cuisinier hors pair qui mange des pâtes au beurre",
+                "Se déguise en sorcière pour halloween"
             ],
-            "avatar": "avatar.png",
+            "avatar": "PIERRE_Remi.webp",
             "coordonnees": {
-                "latitude": 47.6771965,
-                "longitude": -2.297903
+                "latitude": 47.67745,
+                "longitude": -2.29494
             }
         },
         {
             "id": 22,
             "nom": "RIMIZE",
             "prenom": "Yoan",
-            "ville": "Ville",
+            "ville": "Paris",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "Petit je rêvais d'être pilote d'avion..",
+                "N'ayant pas fait les études pour, je voyage en éco et non dans le cockpit !"
             ],
-            "avatar": "avatar.png",
+            "avatar": "RIMIZE_Yoan.webp",
             "coordonnees": {
-                "latitude": 0,
-                "longitude": 0
+                "latitude": 48.853263,
+                "longitude": 2.349096
             }
         },
         {
@@ -347,13 +330,13 @@
             "prenom": "Gatien",
             "ville": "Aurillac",
             "anecdotes": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
-                "Labore impedit error itaque vitae mollitia eum necessitatibus"
+                "N'a pas de photo de lui",
+                "Regarde l'intégral de Rick et Morty en boucle"
             ],
-            "avatar": "avatar.png",
+            "avatar": "Sicot_Gatien.webp",
             "coordonnees": {
-                "latitude": 44.9300,
-                "longitude": 2.4400
+                "latitude": 44.9285441,
+                "longitude": 2.4433101
             }
         }
     ]
