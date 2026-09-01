@@ -8,9 +8,6 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap'
 }).addTo(map);
 
-console.log(document.getElementById('map'));
-console.log(document.getElementById('map').offsetHeight);
-
 fetch('assets/data/data.json')
     .then(response => response.json())
     .then(data => {
